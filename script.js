@@ -1,11 +1,11 @@
 const formulario=document.getElementById("formulario-contacto");
-const divMensajes=document.getElementById("mensajes");
+const Contacto=document.getElementById("mensajes");
 
 if (formulario) 
 {
     formulario.addEventListener("submit",function(evento){
         evento.preventDefault();
-        divMensajes.innerHTML = "";
+        Contacto.innerHTML = "";
         let nombre=document.getElementById("nombre").value.trim();
         let email=document.getElementById("email").value.trim();
         let telefono=document.getElementById("telefono").value.trim();
@@ -20,13 +20,13 @@ if (formulario)
                 let pError=document.createElement("p");
                 pError.className="error";
                 pError.textContent=error;
-                divMensajes.appendChild(pError);
+                Contacto.appendChild(pError);
             });
         } else {
             let resumen=document.createElement("div");
             resumen.style.color="#669bfc";
-            resumen.innerHTML=`<h3>Mensaje enviado!</h3><p>Nombre:${nombre}</p><p>Email:${email}</p><p>Tel:${telefono}</p>`;
-            divMensajes.appendChild(resumen);
+            resumen.innerHTML=`<h3> Contacto Registrado!</h3><p>Nombre:${nombre}</p><p>Email:${email}</p><p>Tel:${telefono}</p>`;
+            Contacto.appendChild(resumen);
             formulario.reset();
         }
     });
