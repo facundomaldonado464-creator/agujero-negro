@@ -210,10 +210,6 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-#boton-enviar:hover {
-    background-color: #669bfc;
-}
-
 .error {
     color: #ff4d4d;
     font-size: 0.9em;
