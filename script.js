@@ -1,5 +1,5 @@
-const formulario = document.getElementById("formulario-contacto");
-const divMensajes = document.getElementById("mensajes");
+const formulario=document.getElementById("formulario-contacto");
+const divMensajes=document.getElementById("mensajes");
 
 if (formulario) 
 {
@@ -41,7 +41,8 @@ if (imgCarrusel){
     const imagenes=[
         "https://ubuinvestiga.es/wp-content/uploads/2024/09/Agujero-negro.jpg",
         "https://imagenes.20minutos.es/files/image_1280_720/uploads/imagenes/2019/04/10/GRot7.jpg",
-        "https://cdn.pixabay.com/photo/2012/11/28/08/54/milky-way-67504_1280.jpg"
+        "https://es.gizmodo.com/app/uploads/2025/01/Diseno-sin-titulo-8-25-896x597.jpg",
+        "agujero_negro_f.jpg" ,
     ];
     let posicion=0;
 
@@ -61,6 +62,8 @@ if (imgCarrusel){
     });
 }
 
+
+//volumen de la musica al 30%
 
 const reproductorMusica=document.getElementById("musica-fondo");
 if (reproductorMusica){
