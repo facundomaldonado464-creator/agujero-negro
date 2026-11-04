@@ -11,7 +11,7 @@ Descripcion breve: La pagina tiene el objetivo de tratar que las personas puedan
 
 Nombre del estudiante:Facundo Maldonado.
 
-Instrucciones baiscas de uso: La pagina es muy intuitiva cuenta con un encabezado para poder navegar por las distintas paginas,la seccion de imagenes cuenta con botones para poder inr cambiando las mismas,la seccion interestellar tiene musica que bajando hasta el final de esa pagina se puede parar ,bajar o subir el volumen(esta seteada a 30% por codigo), y en la seccion registro se encuentra el formulario para registrarse en la pagina, se tiene que ingresar un nombre mayor a 3 letras el correo tiene que tener un "@"en un lugar especifico y el telefono solo acepta numero del 0 al 9 y esta truncado a 15 numeros
+Instrucciones baiscas de uso: La pagina es muy intuitiva cuenta con un encabezado para poder navegar por las distintas paginas,la seccion de imagenes cuenta con botones para poder inr cambiando las mismas,la seccion interestellar tiene musica(en iphone se le tiene que dar a play para que se escuche en android funciona sin problemas) que bajando hasta el final de esa pagina se puede parar ,bajar o subir el volumen(esta seteada a 30% por codigo), y en la seccion registro se encuentra el formulario para registrarse en la pagina, se tiene que ingresar un nombre mayor a 3 letras el correo tiene que tener un "@"en un lugar especifico y el telefono solo acepta numero del 0 al 9 y esta truncado a 15 numeros
 
 Enlace del repositorio: https://github.com/facundomaldonado464-creator/agujero-negro.git
 Enlace de la pagina: https://facundomaldonado464-creator.github.io/agujero-negro/
